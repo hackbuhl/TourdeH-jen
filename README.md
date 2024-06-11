@@ -4,7 +4,8 @@
 Dette er en webapp hosted på firebase som udregner vindere og laver fakturarer til sponsorere i forbindelse med det årlige tour det højen 
 
 ### TODO/ønskeseddel 
-Præmiegivning til elcykler 
+Præmiegivning til elcykler
+ 
 Automatisk udsending af emails 
 
 
