@@ -1,11 +1,11 @@
 # Dette er beregnings programmet til tour de højen 
 
-## Beskrivelse af programmetæå
+## Beskrivelse af programmet
 Dette er en webapp hosted på firebase som udregner vindere og laver fakturarer til sponsorere i forbindelse med det årlige tour det højen 
 
 ### TODO/ønskeseddel 
 Præmiegivning til elcykler
- 
+
 Automatisk udsending af emails 
 
 
