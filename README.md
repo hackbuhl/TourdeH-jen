@@ -1,25 +1,29 @@
-# Welcome to Next.js
+# Dette er beregnings programmet til tour de højen 
 
-This is the most minimal starter for your Next.js project.
+## Beskrivelse af programmetæå
+Dette er en webapp hosted på firebase som udregner vindere og laver fakturarer til sponsorere i forbindelse med det årlige tour det højen 
 
-## Deploy your own
+### TODO/ønskeseddel 
+Præmiegivning til elcykler 
+Automatisk udsending af emails 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/hello-world&project-name=hello-world&repository-name=hello-world)
 
-## How to use
+## Klargøring af data
+Til at bruge appen uploades tre filer if semicolon sepereret utf-8 som vælges når man gemmer filerne som csv fra excel.
+Det er vigtigt at sponsor data og rytternavne alitd er stavet ens 
+Filerne har følgende opbygning:  
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+### Omgange:
+1;Test Testesen;9
 
-```bash
-npx create-next-app --example hello-world hello-world-app
-```
+hvor laver man denne fil: 
 
-```bash
-yarn create next-app --example hello-world hello-world-app
-```
+### Ryttere: 
+1;Test Testesen;test@gmail.com;88888888;Mand;02-07-2007;Nej
 
-```bash
-pnpm create next-app --example hello-world hello-world-app
-```
+hvor laver man denne fil: 
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+### Sponsorere: 
+Test Sponsor;Efternavn;Fornavn;Test Vej 13;7100;Vejle;testsponsor@gmail.com;12121212;Test Testesen;0;250
+
+hvor laver man denne fil: 
